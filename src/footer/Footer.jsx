@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../Hero/logo.png"
+import Logo from "../Hero/Logo.png"
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
