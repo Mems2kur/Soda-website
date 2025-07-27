@@ -89,7 +89,7 @@ const contente = [
 
 function Hero() {
     const [colors,setColor]= useState(contente[0]);
-    const handleChnage=(data)=>{
+    const handleChanage=(data)=>{
         setColor(data)
     }
 
@@ -100,9 +100,9 @@ function Hero() {
     transition={{duration:0.8,}}
     className=' space-x-10'>
       <Navbar logo={colors.img} />
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center  gap-20">
+      <div className="container grid grid-cols-1 md:grid-cols-2 iphone:  gap-20">
         <div className='py-14 flex flex-col order-2 md:order-1  px-1 justify-center items-center md:items-start mr-[20px]'>
-           
+        
           <AnimatePresence mode='wait'>
           <UpdateFollower
             
@@ -249,9 +249,9 @@ function Hero() {
             ease:"easeInOut"
           }}
           >
-              <div className='px-[130px] order-1 md:order-2 flex flex-col justify-end img-shadow'>
+              <div className='iphone:px-[40px] px-[130px] order-1 md:order-2 flex flex-col md:justify-end iphone:justify-start iphone:mx-auto img-shadow'>
                 <h1 className={`font-bold text-[300px] absolute -top-[250px] -left-[250px] w-full text-white/5 font-extrabold z-[-1]`}>{colors.modal}</h1>
-                    <img src={colors.image} className='md:w-[320px] w-[200px] hover:-rotate-45 duration-300' alt="" />
+                    <img src={colors.image} className='md:w-[320px] iphone:w-[200px] hover:-rotate-45 duration-300' alt="" />
               </div>
           
           </motion.div>

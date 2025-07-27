@@ -27,7 +27,7 @@ export default {
       ,
 
       screens: {
-      'iphone': '375px',  // 🔥 custom iPhone width
+      'iphone': '360px',  // 🔥 custom iPhone width
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
