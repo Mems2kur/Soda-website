@@ -89,7 +89,7 @@ const contente = [
 
 function Hero() {
     const [colors,setColor]= useState(contente[0]);
-    const handleChanage=(data)=>{
+    const handleChnage=(data)=>{
         setColor(data)
     }
 
